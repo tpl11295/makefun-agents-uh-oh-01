@@ -3,6 +3,7 @@
 // audibly lost and trying to recover. Specific, instantly funny on its own,
 // unmistakably a machine blurting it out — not generic filler ("Umm"/"Oops")
 // and not a meta-AI joke ("Hallucinating", the one entry already in).
+// Gate: exactly one word, 1-99 chars, written to /output/entry.txt.
 import * as fs from "node:fs";
 
 const WORD = "Recalculating";
